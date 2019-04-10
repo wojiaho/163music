@@ -1,0 +1,33 @@
+.tab-item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 0.75rem;
+  height: 2rem;
+  border-bottom: 1px solid #ccc;
+}
+.tab-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: auto;
+  height: 100%;
+  &.active {
+    color: #d33a31;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      width: 3.5rem;
+      height: 2px;
+      background-color: #d33a31;
+    }
+  }
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}

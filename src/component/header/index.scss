@@ -3,6 +3,7 @@ $baseColor: #d43c33;
 .header-wrap {
   display: flex;
   align-items: center;
+  box-sizing: border-box;
   width: 100%;
   height: 3.2rem;
   padding: 0 0.5rem;
