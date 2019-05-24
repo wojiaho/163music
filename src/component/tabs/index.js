@@ -15,7 +15,6 @@ export default class Tabs extends React.Component {
   }
 
   componentWillMount() {
-    console.log(this.props);
   }
 
   handleClick = (index) => {
