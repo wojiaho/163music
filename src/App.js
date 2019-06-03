@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import './App.scss';
-import Header from './component/header/index';
+import Header from './component/header';
 import Tabs from './component/tabs';
 import Recommend from './pages/recommend';
+import Hot from './pages/hot';
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
         <Header />
         <Tabs>
           <Recommend />
-          <div>222</div>
+          <Hot />
           <div>333</div>
         </Tabs>
       </div>

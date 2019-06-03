@@ -10,7 +10,7 @@ export default class Tabs extends React.Component {
   constructor() {
     super();
     this.state = {
-      showIndex: 0,
+      showIndex: 1,
     };
   }
 
